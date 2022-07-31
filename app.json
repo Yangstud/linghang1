@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/memoryPassing/memoryPassing",
+        "pages/fireTest/fireTest",
+        "pages/me/me",
+        "pages/redShow/redShow"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "f20c00",
+        "backgroundColor": "#FFFFFF",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "虚拟站点",
+                "iconPath": "/IMG/virtualSite.png",
+                "selectedIconPath": "/IMG/virtualSite_s.png"
+            },
+            {
+                "pagePath": "pages/memoryPassing/memoryPassing",
+                "text": "记忆传承",
+                "iconPath": "/IMG/memoryPassing.png",
+                "selectedIconPath": "/IMG/memoryPassing_s.png"
+            },
+            {
+                "pagePath": "pages/fireTest/fireTest",
+                "text": "火种试炼",
+                "iconPath": "/IMG/fireTest.png",
+                "selectedIconPath": "/IMG/fireTest_s.png"
+            },
+            {
+                "pagePath": "pages/redShow/redShow",
+                "text": "红色展列",
+                "iconPath": "/IMG/redShow.png",
+                "selectedIconPath": "/IMG/redShow_s.png"
+            },
+            {
+              "pagePath": "pages/me/me",
+              "text": "个人中心",
+              "iconPath": "/IMG/personalCenter.png",
+              "selectedIconPath": "/IMG/personalCenter_s.png"
+          }
+        ]
+    }
+    
+      
+}

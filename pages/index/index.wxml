@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class='backgroundImage'>
+<view class='chinaMap'>
+<view class='topText'>已有xxx人次云乘坐虚拟站点</view>
+<view class='bottomText'>选择城市，查看红色故事</view>
+</view>
+</view>
