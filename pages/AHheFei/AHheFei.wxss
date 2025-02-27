@@ -1,0 +1,70 @@
+/* pages/AHheFei/AHheFei.wxss */
+.backgroundImage {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: relative;
+}
+
+.HeFeiMap1_1 {
+  position:absolute;
+  height: 320rpx;
+  width: 400rpx;
+  top:3%;
+  left: 200rpx;
+}
+
+.HeFeiS1 {
+  position: absolute;
+  left: 0;
+  top:400rpx;
+
+}
+
+.HeFeiS1_1 {
+  position: relative;
+  height:650rpx;
+  width: 750rpx;
+}
+.progress{
+  position: relative;
+  bottom: 50rpx;
+}
+.sign1{
+  position:absolute;  
+  bottom: 290rpx;
+  left: 315rpx;
+}
+.sign1_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign2{
+  position:absolute;  
+  bottom: 290rpx;
+  left: 550rpx;
+}
+.sign2_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+
+.dot1{
+  position:absolute;  
+  bottom:305rpx;
+  left: 315rpx;
+}
+.dot1_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot2{
+  position:absolute;  
+  bottom: 305rpx;
+  left: 550rpx;
+}
+.dot2_1{
+  height: 45rpx;
+  width: 45rpx;
+}

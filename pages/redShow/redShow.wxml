@@ -1,4 +1,22 @@
 <!--pages/redShow/redShow.wxml-->
-<view class='backgroundImage'>
 
+<view class='backgroundImage' >
+  <view class="topInput1">
+    <input placeholder="请输入关键词搜索" class='topInput1_1' bindinput="recommendSearch" bindconfirm="search" confirm-type="search"></input>
+  </view>
+  <view wx:if="{{defaultPage}}">
+    <view wx:for='{{videoList}}' class='videoListAll' wx:if="{{defaultPage}}">
+      <view>{{item.title}}</view>
+      <video src="{{item.redShowVideos}}"></video>
+    </view>
+  </view>
+  <view  wx:if="{{searchPage}}">
+    <view class='recommendText'>推荐搜索以下内容</view>
+    <view wx:for="{{recommendSearchList}}" class="searchingPage">
+      <view bindtap="goDetail" data-info="{{item}}">{{item.title}}</view>
+    </view>
+  </view>
 </view>
+<view class='BbackgroundImage'> 
+</view>
+

@@ -1,0 +1,10 @@
+<!--pages/MPdetail/MPdetail.wxml-->
+<view class='backgroundImage'>
+<view class='video0'>
+  <video src="{{memberInfo.interviewVideo}}" 	bindended='updatedata1'	autoplay="true"></video>
+</view>
+</view>
+<view class='text1'>姓名</view>
+<view class='name'>{{memberInfo.name}}</view>
+<view class='text2'>简介</view>
+<view class='introduce'>{{memberInfo.introduce}}</view>

@@ -1,8 +1,53 @@
-/* pages/fireTest/fireTest.wxss */
-.backgroundImage {
-    position: fixed;
-    background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
-}
+.cccc{
+  width: 1500rpx;
+  margin:  0rpx 450rpx;
+  position: absolute;
+  top:360rpx;
+  color: #e75529;
+  
+  }
+  
+  .dddd{
+      position: absolute;
+      top:650rpx;
+     background-color: rgb(78, 77, 74);
+  }
+  
+  
+  page{
+      background-color: #f3f3f5;
+      background-image: url('https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/add.jpg?sign=98b9077dde17835f5add15e98064181a&t=1658039067');
+      background-size: 100% 100%;
+    }
+  
+  
+  .bbbb{
+   
+      margin:  0rpx 300rpx;
+      position: absolute;
+      top:350rpx;
+  }
+  
+  
+  .huanyin{
+      
+      position: absolute;
+      top:150rpx;
+  }
+  .zheli{
+      position: absolute;
+      top:300rpx;
+  }
+  .shilian{
+  
+      position: absolute;
+      top:300rpx;
+  }
+  
+  .demo1{
+  font-size: 40rpx;
+  position: absolute;
+  top:980rpx;
+  color: #f7f7f7;
+  }
+  

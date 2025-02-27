@@ -1,24 +1,136 @@
-/**index.wxss**/
+/**index.wxss
+image{
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+  background-color: seashell;
+}
+**/
+
 .backgroundImage {
-    position: fixed;
-    background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
+  background-size: 100vw 100vh;
+  height:100vh;
+  width: 100vw;
+  background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
 }
 .chinaMap{
     background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E5%9B%BE.png);
-    position: absolute;
-    margin-top: 200rpx;
-    margin-bottom: 150rpx;
-    height: 100%;
-    width: 100%;
+    position: relative;
+    height: 750rpx;
+    width: 750rpx;
+    bottom:20rpx;
     background-repeat: no-repeat;
-    background-size: 100% 70%;
+    background-size: 100% 100%;
+}
+.text10{
+  position: absolute;
+  bottom: 0%;
+  color: white;
+}
+.goGet1{
+  position: absolute;
+  width: 150rpx;
+  height: 90rpx;
+  left: 20rpx;
+  bottom:40rpx;
+}
+.goGet1_1{
+  height: 90rpx;
+  width: 150rpx;
 }
 .topText{
-    font-size: larger;
+  height: 60rpx;
+  width: 590rpx;
+  position: absolute;
+    top:230rpx;
+    left:100rpx ;
+    font-size: 40rpx;
+    color: white;
 }
 .bottomText{
-    font-size: medium;
+  position: absolute;
+    font-size: 40rpx;
+    bottom: 20rpx;
+    left: 160rpx;
+    color: white;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+    height: 50rpx;
+    width: 445rpx;
+}
+
+.virtualSite{
+width: 400rpx;
+height: 300rpx;
+margin: 0rpx;
+padding: 0;
+border: 0;
+top:0rpx;
+position: relative;
+left:190rpx;
+}
+.shangHaiSign{
+  position: absolute;
+  filter: opacity(80%);
+  top: 450rpx;
+  left: 570rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.anHuiSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 460rpx;
+  left: 520rpx;
+}
+.neiMengSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  bottom: 460rpx;
+  left: 430rpx;
+}
+.shanXiSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 340rpx;
+  left: 455rpx;
+}
+.guangDongSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 610rpx;
+  left: 470rpx;
+}
+.jangSuSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 430rpx;
+  left: 550rpx;
+}
+.zheJiangSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 500rpx;
+  left: 555rpx;
+}
+.huBeiSign{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  filter: opacity(80%);
+  top: 460rpx;
+  left: 460rpx;
 }

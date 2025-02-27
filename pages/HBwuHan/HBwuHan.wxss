@@ -1,0 +1,105 @@
+/* pages/HBwuHan/HBwuHan.wxss */
+.backgroundImage {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: relative;
+}
+
+.WuHanMap1_1 {
+  position:absolute;
+  height: 320rpx;
+  width: 400rpx;
+  top:3%;
+  left: 200rpx;
+}
+
+.WuHanS1 {
+  position: absolute;
+  left: 0;
+  top:400rpx;
+
+}
+
+.WuHanS1_1 {
+  position: relative;
+  height:650rpx;
+  width: 750rpx;
+}
+.progress{
+  position: relative;
+  bottom: 50rpx;
+}
+.sign1{
+  position:absolute;  
+  bottom:400rpx;
+  left: 315rpx;
+}
+.sign1_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign2{
+  position:absolute;  
+  bottom: 400rpx;
+  left: 550rpx;
+}
+.sign2_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign3{
+  position:absolute;  
+  bottom: 215rpx;
+  left: 465rpx;
+}
+.sign3_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign4{
+  position:absolute;  
+  bottom: 215rpx;
+  left: 145rpx;
+}
+.sign4_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.dot1{
+  position:absolute;  
+  bottom:415rpx;
+  left: 315rpx;
+}
+.dot1_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot2{
+  position:absolute;  
+  bottom: 415rpx;
+  left: 550rpx;
+}
+.dot2_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot3{
+  position:absolute;  
+  bottom: 230rpx;
+  left: 465rpx;
+}
+.dot3_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot4{
+  position:absolute;  
+  bottom: 230rpx;
+  left: 145rpx;
+}
+.dot4_1{
+  height: 45rpx;
+  width: 45rpx;
+}

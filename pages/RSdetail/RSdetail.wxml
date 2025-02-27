@@ -1,0 +1,2 @@
+<!--pages/RSdetail/RSdetail.wxml-->
+<view wx:for='{{list}}'>  </view>

@@ -1,0 +1,9 @@
+<!--pages/reWard2/reWard2.wxml-->
+<view  class = "xunzhang"style="font-family:sans-serif;" >
+		<view style=" display: block; box-sizing: border-box">恭喜获得勋章!</view>
+		
+	</view>
+    <view class="one" style="width: 750rpx; height: 80rpx; display: block; box-sizing: border-box">
+    <image  src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%BE%BD%E7%AB%A0/%E7%BA%A2%E8%89%B2%E5%9F%BA%E5%9B%A0.png" style="width: 750rpx; height: 698rpx; display: block; box-sizing: border-box; position: absolute; left: -13rpx; top: 415rpx" class="dddd"	show-menu-by-longpress="true" ></image>
+    <view class='zuihoutext'>长按可保存勋章</view>
+</view>

@@ -1,4 +1,13 @@
-/**app.wxss**/
+/**app.wxss
+page{
+  background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
+  background-size: 100vw 100vh;
+  -moz-background-size: 100vw 100vh;
+  min-height: 100vh;
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+}**/
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +17,5 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+

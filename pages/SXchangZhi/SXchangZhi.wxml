@@ -1,0 +1,27 @@
+<!--pages/SXchangZhi/SXchangZhi.wxml-->
+<view>
+  <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg' mode="scaleToFill" class='backgroundImage'></image>
+  <view class="ChangZhiMap1">
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E5%B1%B1%E8%A5%BF%E9%95%BF%E6%B2%BB.png' mode="aspectFit" class="ChangZhiMap1_1"></image>
+  </view>
+  <view class='ChangZhiS1'>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E5%B1%B1%E8%A5%BF%E9%95%BF%E6%B2%BB.png?sign=f5c4a043bd04bdfe6c34d2da4c0121bf&t=1660276246' mode='aspectFit' class='ChangZhiS1_1'></image>
+    <view class="dot1" bindtap="go1">
+      <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E6%8C%89%E9%92%AE.png' mode="aspectFit" class='dot1_1'></image>
+    </view>
+    <view class="dot2" bindtap="go2">
+      <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E6%8C%89%E9%92%AE.png' mode="aspectFit" class='dot2_1'></image>
+    </view>
+    <view class="sign1" wx:if="{{sign1}}" bindtap="go1">
+      <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E5%8B%BE.png' mode="aspectFit" class='sign1_1'></image>
+    </view>
+    <view class="sign2" wx:if="{{sign2}}" bindtap="go2">
+      <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E5%8B%BE.png' mode="aspectFit" class='sign2_1'></image>
+    </view>
+  </view>
+  <view class="progress">
+    <van-progress pivot-text="{{progress}}" color="#ee0a24" percentage="{{progress}}" />
+  </view>
+
+
+</view>

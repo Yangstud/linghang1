@@ -1,0 +1,9 @@
+
+	<view  class = "xunzhang"style="font-family:sans-serif;" >
+		<view style=" display: block; box-sizing: border-box">恭喜获得勋章!</view>
+		
+	</view>
+    <view class="one" style="width: 750rpx; height: 80rpx; display: block; box-sizing: border-box">
+    <image  src="https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/%E9%9D%92%E6%98%A5%E7%81%AB%E7%A7%8D.png?sign=80f6c9798d78162141120da4bcabbdbb&t=1659780478" style="width: 750rpx; height: 698rpx; display: block; box-sizing: border-box; position: absolute; left: -13rpx; top: 415rpx" class="dddd"	show-menu-by-longpress="true" ></image>
+    <view class='zuihoutext'>长按可保存勋章</view>
+</view>

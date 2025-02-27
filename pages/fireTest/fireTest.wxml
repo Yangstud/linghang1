@@ -1,4 +1,23 @@
-<!--pages/fireTest/fireTest.wxml-->
-<view class='backgroundImage'>
 
+
+<view >
+    <image src="https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png?sign=bf06cda65c36f590a1a16632a8a399ce&t=1659759567"  class="" style="width: 425rpx; height: 428rpx; display: block; box-sizing: border-box; position: absolute; left: 153rpx; top: -19rpx"  class="shilian"></image>
 </view>
+
+
+<view  style="width: 750rpx; height: 171rpx; display: block; box-sizing: border-box">
+    <image src="https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/%E9%A6%96%E9%A1%B51.png?sign=a1edbb796585db48ad7b1b28fafa2949&t=1659756153" style="width: 732rpx; height: 321rpx; display: inline-block; box-sizing: border-box; position: absolute; left: 21rpx; top: 290rpx" class="huanyin"></image>
+</view>
+<view >
+    <image src="https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/%E9%A6%96%E9%A1%B52.png?sign=0e036acbcfeebf16b7d126e852bffc5b&t=1659755338" style="width: 650rpx; height: 90rpx; display: block; box-sizing: border-box; position: absolute; left: 53rpx; top: 505rpx" class="zheli"></image>
+</view>
+<van-button  color="green" round type="info" class="bbbb" bindtap="gotoPage" plain type="primary" style="position: absolute; left: -250rpx; top: 767rpx; width: 650rpx; height: 80rpx; display: block; box-sizing: border-box" size="large"  >点击确认</van-button>
+
+
+
+
+
+<view  class = "demo1"style="font-family:sans-serif;" >
+		<view style=" display: block; box-sizing: border-box">温馨提示:火种试炼成绩达到80分及以上可获得试炼成功的青春火种专属电子勋章哦~</view>
+		
+	</view>

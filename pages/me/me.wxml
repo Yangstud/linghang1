@@ -1,4 +1,33 @@
-<!--pages/me/me.wxml-->
-<view class='backgroundImage'>
+<!--pages/me/me.wxml
 
+-->
+<view class='backgroundImage'>
+<view wx:if='{{islogin}}'>
+  <button  type="primary" bindtap="login"
+class='login'>请先登录</button>
+</view>
+
+<view  wx:if='{{islogout}}'>
+
+<view class='headPortrait1'>
+<image src='{{userInfo.avatarUrl}}' class='headPortrait2' mode="aspectFit"
+></image>
+</view>
+<view class='text1'>欢迎，{{userInfo.nickName}}</view>
+<view class="achievementWall">
+<view class="achievement">我的徽章</view>
+<view class='badge1' wx:if="{{grade1}}">
+<image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%BE%BD%E7%AB%A0/%E4%BF%A1%E4%BB%B0%E8%B6%B3%E8%BF%B9.png" mode="aspectFit" class="badge1_1"></image>
+</view>
+<view class='badge2' wx:if="{{grade2}}">
+<image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%BE%BD%E7%AB%A0/%E7%BA%A2%E8%89%B2%E5%9F%BA%E5%9B%A0.png" mode="aspectFit" class="badge2_2"></image>
+</view>
+<view class='badge3' wx:if="{{grade3}}">
+<image src="https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/%E9%9D%92%E6%98%A5%E7%81%AB%E7%A7%8D.png?sign=80f6c9798d78162141120da4bcabbdbb&t=1659780478" mode="aspectFit" class="badge3_3"></image>
+</view>
+</view>
+
+<button type="warn" bindtap="logout"
+class="logout">退出登录</button>
+</view>
 </view>

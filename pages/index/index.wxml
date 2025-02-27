@@ -1,7 +1,33 @@
-<!--index.wxml-->
+<!--index.wxml
+
+
+-->
 <view class='backgroundImage'>
-<view class='chinaMap'>
-<view class='topText'>已有xxx人次云乘坐虚拟站点</view>
-<view class='bottomText'>选择城市，查看红色故事</view>
-</view>
+    <image class='virtualSite' mode="aspectFit" src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E6%9D%BF%E5%9D%97%E5%9B%BE/%E8%99%9A%E6%8B%9F%E7%AB%99%E7%82%B9.png'></image>
+    <view class='topText'>已有{{total}}人次云乘坐虚拟站点</view>
+    <view class='bottomText'>选择城市，查看红色故事</view>
+  <view class='chinaMap' > 
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='shangHaiSign' bindtap="goShangHai" >
+    </image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='anHuiSign'
+    bindtap="goAnHui"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='neiMengSign'
+    bindtap="goNMG"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='shanXiSign'
+    bindtap="goShanXi"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='guangDongSign'
+    bindtap="goGuangDong"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='jangSuSign'
+    bindtap="goJiangSu"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='zheJiangSign'
+    bindtap="goZheJiang"></image>
+    <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E5%9C%B0%E5%9B%BE%E6%A0%87%E7%82%B9/%E6%A0%87%E7%82%B9.png' mode="aspectFit" class='huBeiSign'
+    bindtap="goHuBei"></image>
+    <view class='text10'>乘坐所有站点可获得徽章</view>
+    <view wx:if="{{grade}}" class="goGet1">
+      <image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E5%8E%BB%E9%A2%86%E5%8F%96.png" mode="aspectFit"
+      class="goGet1_1" bindtap="goReward3"></image>
+    </view>
+
+  </view>
 </view>

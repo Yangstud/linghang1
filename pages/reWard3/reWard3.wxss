@@ -1,0 +1,22 @@
+/* pages/reWard3/reWard3.wxss */
+page{
+  background-color: #f3f3f5;
+  background-image: url('https://636c-cloud1-1gily6odfb047e95-1309060123.tcb.qcloud.la/add.jpg?sign=98b9077dde17835f5add15e98064181a&t=1658039067');
+  background-size: 100% 100%;
+}
+
+
+.xunzhang{
+font-size: 100rpx;
+position: absolute;
+margin: -11rpx 50rpx;
+top: 200rpx;
+color: rgb(230, 233, 64);
+}
+.zuihoutext{
+  position: absolute;
+  width: 750rpx;
+  text-align: center;
+  bottom: 100rpx;
+  font-size: 50rpx;
+}

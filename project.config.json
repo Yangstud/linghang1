@@ -1,27 +1,23 @@
 {
-  "appid": "wxe5b4ba6c6e38f61a",
+  "cloudfunctionRoot": "cloud/",
+  "appid": "wx9527e3097bb1831f",
   "compileType": "miniprogram",
-  "libVersion": "2.25.2",
+  "libVersion": "3.2.1",
   "packOptions": {
-    "ignore": [],
+    "ignore": [
+      "node_modules/**/*",
+      "**/*.test.js",
+      "**/*.spec.ts"
+    ],
     "include": []
   },
   "setting": {
-    "coverView": true,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "enhance": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "packNpmManually": true
-  },
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram_npm"
+      }
+    ]
   }
 }

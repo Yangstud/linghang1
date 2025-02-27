@@ -1,0 +1,39 @@
+/* pages/VSDetailVideo/VSDetailVideo.wxss */
+.backgroundImage {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: relative;
+}
+.video1{
+  position: absolute;
+  top: 0;
+  width: 750rpx;
+  text-align: center;  
+}
+.video1_1{
+  height:100vh;
+  width: 100vw;
+}
+.nextStation1{
+  position: absolute;
+  top:65%;
+  right: 120rpx;
+
+  height:150rpx;
+}
+.nextStation1_1{
+  width: 200rpx;
+  height: 200rpx;
+}
+.outStation1{
+  position: absolute;
+  top:75%;
+  right: 120rpx;
+
+  height:150rpx;
+}
+.outStation1_1{
+  width: 200rpx;
+  height: 200rpx;
+}

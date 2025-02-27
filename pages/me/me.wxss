@@ -1,8 +1,107 @@
 /* pages/me/me.wxss */
 .backgroundImage {
-  position: fixed;
+  position: relative;
   background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
+  height: 1334rpx;
+  width: 750rpx;
   background-image: url(https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%83%8C%E6%99%AF%E5%9B%BE/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
+}
+
+.login {
+  position: relative;
+  height: 90rpx;
+  width: 400rpx;
+  top: 375rpx;
+  text-align: center;
+}
+
+.headPortrait1 {
+  position: relative;
+  height: 150rpx;
+  width: 150rpx;
+  top: 40rpx;
+  left: 100rpx;
+  border-radius: 50%;
+  background-color: turquoise;
+}
+
+.headPortrait2 {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}
+
+.text1 {
+  position: relative;
+  left: 250rpx;
+  bottom: 50rpx;
+  width: 330rpx;
+  height: 60rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+.logout {
+  position: relative;
+  top: 500rpx;
+  height: 90rpx;
+  width: 400rpx;
+}
+
+.achievement {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 150rpx;
+  font-weight:600;
+}
+.achievementWall{
+  top: 50rpx;
+  position: relative;
+  height: 350rpx;
+  width: 700rpx;
+  background-color: white;
+  border-radius:40rpx;
+  left: 20rpx;
+}
+.phoneNumber1{
+  position:relative;
+  width: 600rpx;
+  height:90rpx;
+  top: 300rpx;
+  left: 50rpx;
+  background-color: teal;
+}
+.badge1{
+  position: absolute;
+  height: 280rpx;
+  width: 280rpx;
+  top: 15%;
+  left: 0;
+}
+.badge1_1{
+  width: 250rpx;
+  height: 250rpx;
+}
+.badge2{
+  position: absolute;
+  height: 280rpx;
+  width: 280rpx;
+  top: 15%;
+  left: 30%;
+}
+.badge2_2{
+  width: 250rpx;
+  height: 250rpx;
+}
+.badge3{
+  position: absolute;
+  height: 280rpx;
+  width: 280rpx;
+  top: 15%;
+  right: 0rpx;
+}
+.badge3_3{
+  width: 250rpx;
+  height: 250rpx;
 }

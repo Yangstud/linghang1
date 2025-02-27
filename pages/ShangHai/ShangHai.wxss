@@ -1,0 +1,147 @@
+/* pages/ShangHai/ShangHai.wxss 
+.ShangHaiMap1 {
+  position: absolute;
+  top: 10%;
+  right:40%;
+
+}
+*/
+.backgroundImage {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: relative;
+}
+
+.ShangHaiMap1_1 {
+  position:absolute;
+  height: 320rpx;
+  width: 400rpx;
+  top:3%;
+  left: 200rpx;
+}
+
+.ShangHaiS1 {
+  position: absolute;
+  left: 0;
+  top:400rpx;
+
+}
+
+.ShangHaiS1_1 {
+  position: relative;
+  height:650rpx;
+  width: 750rpx;
+}
+.progress{
+  position: relative;
+  bottom: 50rpx;
+}
+.sign1{
+  position:absolute;  
+  bottom:505rpx;
+  left: 315rpx;
+}
+.sign1_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign2{
+  position:absolute;  
+  bottom: 505rpx;
+  left: 550rpx;
+}
+.sign2_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign3{
+  position:absolute;  
+  bottom: 325rpx;
+  left: 470rpx;
+}
+.sign3_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign4{
+  position:absolute;  
+  bottom: 325rpx;
+  left: 145rpx;
+}
+.sign4_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign5{
+  position:absolute;  
+  bottom: 145rpx;
+  left: 145rpx;
+}
+.sign5_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.sign6{
+  position:absolute;  
+  bottom: 145rpx;
+  left: 470rpx;
+}
+.sign6_1{
+  height: 50rpx;
+  width: 50rpx;
+}
+.dot1{
+  position:absolute;  
+  bottom:520rpx;
+  left: 315rpx;
+}
+.dot1_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot2{
+  position:absolute;  
+  bottom: 520rpx;
+  left: 550rpx;
+}
+.dot2_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot3{
+  position:absolute;  
+  bottom: 340rpx;
+  left: 470rpx;
+}
+.dot3_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot4{
+  position:absolute;  
+  bottom: 340rpx;
+  left: 145rpx;
+}
+.dot4_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot5{
+  position:absolute;  
+  bottom: 160rpx;
+  left: 145rpx;
+}
+.dot5_1{
+  height: 45rpx;
+  width: 45rpx;
+}
+.dot6{
+  position:absolute;  
+  bottom: 160rpx;
+  left: 470rpx;
+}
+.dot6_1{
+  height: 45rpx;
+  width: 45rpx;
+}

@@ -1,4 +1,37 @@
 <!--pages/memoryPassing/memoryPassing.wxml-->
 <view class='backgroundImage'>
 
+  <view class="topInput1">
+    <input placeholder="请输入老党员姓名" class='topInput1_1' bindinput="recommendSearch" bindconfirm="search" confirm-type="search"></input>
+  </view>
+
+  <view class="halfTop">
+    <view class='topTitle1'>
+      <image src='https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E6%9D%BF%E5%9D%97%E5%9B%BE/%E8%AE%B0%E5%BF%86%E4%BC%A0%E6%89%BF.png' mode="aspectFit" class='topTitle1_1'></image>
+    </view>
+    <view class="MHleft1">
+      <image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E6%9D%BF%E5%9D%97/%E5%B7%A6%E9%BA%A6%E7%A9%97.png" mode="aspectFit" class="MHleft1_1"></image>
+    </view>
+    <view class="MHright1">
+      <image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E6%9D%BF%E5%9D%97/%E5%8F%B3%E9%BA%A6%E7%A9%97.png" mode="aspectFit" class="MHright1_1"></image>
+    </view>
+    <view class="textTop1">领航专访</view>
+    <view class="textTop2">追寻红色记忆</view>
+    <view class="textTop3">追寻所有记忆可获得专属电子勋章</view>
+    <view wx:if="{{grade}}" class="goGet1">
+      <image src="https://636c-cloud1-3gjki39y84ed3d7f-1309384772.tcb.qcloud.la/%E9%A2%86%E8%88%AA/%E7%AB%99%E7%82%B9%E7%BA%BF%E8%B7%AF%E5%9B%BE/%E5%8E%BB%E9%A2%86%E5%8F%96.png" mode="aspectFit"
+      class="goGet1_1" bindtap="goReward2"></image>
+    </view>
+  </view>
+
+  <view class='halfbottom'>
+    <view class='partyMember1'>
+      <image mode="scaleToFill" class='partyMember1img' bindtap="goDetail" data-name='{{partyMemberList[0]}}' src='{{partyMemberList[0].photograph}}'></image>
+      <view class='partyMember1name'>{{partyMemberList[0].name}}</view>
+    </view>
+    <view class='partyMember2'>
+      <image mode="scaleToFill" class='partyMember2img' bindtap="goDetail" data-name='{{partyMemberList[1]}}' src='{{partyMemberList[1].photograph}}'></image>
+      <view class='partyMember2name'>{{partyMemberList[1].name}}</view>
+    </view>
+  </view>
 </view>

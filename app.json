@@ -1,58 +1,91 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/memoryPassing/memoryPassing",
-        "pages/fireTest/fireTest",
-        "pages/me/me",
-        "pages/redShow/redShow"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json",
-    "tabBar": {
-        "color": "#000000",
-        "selectedColor": "f20c00",
-        "backgroundColor": "#FFFFFF",
-        "position": "bottom",
-        "borderStyle": "black",
-        "list": [
-            {
-                "pagePath": "pages/index/index",
-                "text": "虚拟站点",
-                "iconPath": "/IMG/virtualSite.png",
-                "selectedIconPath": "/IMG/virtualSite_s.png"
-            },
-            {
-                "pagePath": "pages/memoryPassing/memoryPassing",
-                "text": "记忆传承",
-                "iconPath": "/IMG/memoryPassing.png",
-                "selectedIconPath": "/IMG/memoryPassing_s.png"
-            },
-            {
-                "pagePath": "pages/fireTest/fireTest",
-                "text": "火种试炼",
-                "iconPath": "/IMG/fireTest.png",
-                "selectedIconPath": "/IMG/fireTest_s.png"
-            },
-            {
-                "pagePath": "pages/redShow/redShow",
-                "text": "红色展列",
-                "iconPath": "/IMG/redShow.png",
-                "selectedIconPath": "/IMG/redShow_s.png"
-            },
-            {
-              "pagePath": "pages/me/me",
-              "text": "个人中心",
-              "iconPath": "/IMG/personalCenter.png",
-              "selectedIconPath": "/IMG/personalCenter_s.png"
-          }
-        ]
-    }
-    
-      
+  "pages": [        
+    "pages/index/index",
+    "pages/reWard3/reWard3",
+    "pages/me/me",
+    "pages/reWard2/reWard2",
+    "pages/VSDetailVideo2/VSDetailVideo2",
+    "pages/NMGbaoTou/NMGbaoTou",
+    "pages/AHheFei/AHheFei",
+    "pages/SXchangZhi/SXchangZhi",
+    "pages/GDzhongShan/GDzhongShan",
+    "pages/HBwuHan/HBwuHan",
+    "pages/ZJningBo/ZJningBo",
+    "pages/ZJjiaXing/ZJjiaXing",
+    "pages/JSchangZhou/JSchangZhou",
+    "pages/JSnanJing/JSnanJing",
+    "pages/VSDetailVideo/VSDetailVideo",
+    "pages/exam/exam",
+    "pages/reward/reward",
+    "pages/RSdetail/RSdetail",
+    "pages/MPdetail/MPdetail",
+    "pages/test/test", 
+    "pages/ShangHai/ShangHai",
+    "pages/memoryPassing/memoryPassing",
+    "pages/fireTest/fireTest",
+    "pages/redShow/redShow"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-progress": "@vant/weapp/progress/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-empty": "@vant/weapp/empty/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "f20c00",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "虚拟站点",
+        "iconPath": "/IMG/virtualSite.png",
+        "selectedIconPath": "/IMG/virtualSite_s.png"
+      },
+      {
+        "pagePath": "pages/memoryPassing/memoryPassing",
+        "text": "记忆传承",
+        "iconPath": "/IMG/memoryPassing.png",
+        "selectedIconPath": "/IMG/memoryPassing_s.png"
+      },
+      {
+        "pagePath": "pages/fireTest/fireTest",
+        "text": "火种试炼",
+        "iconPath": "/IMG/fireTest.png",
+        "selectedIconPath": "/IMG/fireTest_s.png"
+      },
+      {
+        "pagePath": "pages/redShow/redShow",
+        "text": "红色展列",
+        "iconPath": "/IMG/redShow.png",
+        "selectedIconPath": "/IMG/redShow_s.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人中心",
+        "iconPath": "/IMG/personalCenter.png",
+        "selectedIconPath": "/IMG/personalCenter_s.png"
+      }
+    ]
+  }
+
+
 }

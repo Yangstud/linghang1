@@ -1,4 +1,5 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "领航"
+  "navigationBarTitleText": "领航",
+  "enablePullDownRefresh": true
 }
